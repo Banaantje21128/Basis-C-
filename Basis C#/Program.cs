@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            string naam = "Zeb";
+            int leeftijd = 17;
+
+            Console.WriteLine("naam: " + naam);
+            Console.WriteLine("leeftijd: " + leeftijd);
+            Console.ReadLine();
         }
     }
 }
