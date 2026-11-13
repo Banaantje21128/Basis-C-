@@ -2,4 +2,6 @@
   <Project Path="Basis C#/Basis C#.csproj" />
   <Project Path="opdr-2/opdr-2.csproj" />
   <Project Path="opdr3/opdr3.csproj" />
+  <Project Path="opdr4/opdr4.csproj" Id="e3cf942d-8da7-458c-ac83-f8b3123dd62b" />
+  <Project Path="opdr5/opdr5.csproj" Id="2d169165-9125-4bb1-91e6-74dc0314b9ac" />
 </Solution>
