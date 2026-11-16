@@ -4,12 +4,16 @@
     {
         static void Main(string[] args)
         {
-            string naam;
-            Console.WriteLine("Wat is je naam?");
-            naam = Console.ReadLine();
 
-            Console.WriteLine("Welkom " + naam + "!");
-            Console.ReadLine();
+            Console.WriteLine("Geef breedte:");
+            double breedte = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Geef hoogte:");
+            double hoogte = double.Parse(Console.ReadLine());
+
+            double oppervlakte = breedte * hoogte;
+            Console.WriteLine("De oppervlakte is: {0:F2}", oppervlakte);
+
         }
     }
 }

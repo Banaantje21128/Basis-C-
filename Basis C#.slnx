@@ -4,4 +4,7 @@
   <Project Path="opdr3/opdr3.csproj" />
   <Project Path="opdr4/opdr4.csproj" Id="e3cf942d-8da7-458c-ac83-f8b3123dd62b" />
   <Project Path="opdr5/opdr5.csproj" Id="2d169165-9125-4bb1-91e6-74dc0314b9ac" />
+  <Project Path="opdr6/opdr6.csproj" Id="40f90c6f-e4c7-44e8-8f46-0d2af12876aa" />
+  <Project Path="opdr7/opdr7.csproj" Id="57091a62-7afb-46c0-80a4-28ad6b872f3c" />
+  <Project Path="opdr8/opdr8.csproj" Id="e052a0a6-0a00-4e3e-b500-928aba002204" />
 </Solution>
