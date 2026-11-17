@@ -11,7 +11,7 @@ namespace opdr7
             Console.WriteLine();
             Console.WriteLine("Key: " + toets.Key);
             string fout = toets.KeyChar.ToString();
-            string GeenCijfer = "Geen cijfer!";
+            string GeenCijfer = "";
 
             if (toets.Key == ConsoleKey.D5)
             {
@@ -19,16 +19,16 @@ namespace opdr7
             }
             else if (toets.KeyChar < '0' || toets.KeyChar > '9')
             {
-                Console.WriteLine(GeenCijfer);
-
-                Console.WriteLine("Incorrect! {0} is niet juist.", fout);
-
-                
+                Console.WriteLine("Incorrect! {0} is niet juist.", GeenCijfer);
             }
 
-            
+            else if (toets.KeyChar != '5')
+            {
+                Console.WriteLine("Incorrect! {0} is niet juist.", fout);
+            }
 
-            
+
+
         }
     }
 }
