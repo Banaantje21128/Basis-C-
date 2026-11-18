@@ -4,12 +4,17 @@
     {
         static void Main(string[] args)
         {
-            int[] num = new int[5];
-            num[0] = 8;
-            num[1] = 15;
-            num[2] = 16;
-            num[3] = 25;
-            num[4] = 42;
+            string[] names = new string[5];
+            names[0] = "Piet";
+            names[1] = "Klaas";
+            names[2] = "Jan";
+            names[3] = "Willma";
+            names[4] = "Henry the 8th";        
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine(names[i]);
+            }
         }
     }
 }
