@@ -39,15 +39,21 @@ namespace Opdr16
                 if (toets.Key == ConsoleKey.D1)
                 {
                     Program p = new Program();
+                    Console.WriteLine("Vul nu de eerste getal in:");
                     double getal1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Vul nu de tweede getal in:");
                     double getal2 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Dit is optellen: " + p.optellen(getal1, getal2));
                     Console.WriteLine("Dit is aftrekkend: " + p.aftrekken(getal1, getal2));
-                        }
+                    
+                    
+                }
                 else if (toets.Key == ConsoleKey.D2)
                 {
                     Program p = new Program();
+                    Console.WriteLine("Vul nu de eerste getal in:");
                     double getal1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Vul nu de tweede getal in:");
                     double getal2 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Dit is optellen: " + p.optellen(getal1, getal2));
                     Console.WriteLine("Dit is vermenigvuldigen: " + p.vermenigvuldigen(getal1, getal2));
@@ -55,7 +61,9 @@ namespace Opdr16
                 else if (toets.Key == ConsoleKey.D3)
                 {
                     Program p = new Program();
+                    Console.WriteLine("Vul nu de eerste getal in:");
                     double getal1 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Vul nu de tweede getal in:");
                     double getal2 = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Dit is optellen: " + p.optellen(getal1, getal2));
                     Console.WriteLine("Dit is delen: " + p.delen(getal1, getal2));
