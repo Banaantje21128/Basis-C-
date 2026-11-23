@@ -10,6 +10,8 @@
   <Project Path="Opdr16/Opdr16.csproj" Id="fdd5cabb-8f2f-449e-8d4b-1a616933d43f" />
   <Project Path="Opdr17/Opdr17.csproj" Id="b1b31359-b983-46f3-b879-6546d6a2bd86" />
   <Project Path="Opdr18/Opdr18.csproj" Id="c19c000a-4283-430a-8cd3-b172f9d0f363" />
+  <Project Path="opdr19/opdr19.csproj" Id="6279c688-b525-40ab-9c2e-418c8de0f55d" />
+  <Project Path="opdr20/opdr20.csproj" Id="cade67dc-71fd-4736-bc2d-1255ada50da3" />
   <Project Path="opdr3/opdr3.csproj" />
   <Project Path="opdr4/opdr4.csproj" Id="e3cf942d-8da7-458c-ac83-f8b3123dd62b" />
   <Project Path="opdr5/opdr5.csproj" Id="2d169165-9125-4bb1-91e6-74dc0314b9ac" />
