@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 
 class Program
@@ -17,20 +18,20 @@ class Program
             {
                 break;
             }
-            else if (!double.TryParse(invoer, result: out double cijfer) || cijfer < 0 || cijfer > 10)
-                    
+
+            if (!double.TryParse(invoer, out double cijfer))
             {
-                Console.WriteLine("Ongeldige invoer. Voer een cijfer tussen 0 en 10 in.");
+                Console.WriteLine("Voer cijfers in.");
                 continue;
             }
 
-            if (cijfers.Count == 0)
-            {
-                Console.WriteLine("Er zijn geen cijfers ingevoerd.");
-                return;
-            }      
-            double cijfer = double.Parse(invoer);
             cijfers.Add(cijfer);
+        }
+
+        if (cijfers.Count == 0)
+        {
+            Console.WriteLine("Er zijn geen cijfers ingevoerd.");
+            return;
         }
 
         Console.WriteLine($"Gemiddelde: {cijfers.Average()}");
